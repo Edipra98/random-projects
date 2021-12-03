@@ -1,0 +1,83 @@
+.navbar {
+    display: flex;
+    padding: 37px 48px;
+}
+.navbar-expand-lg .navbar-collapse{
+    display: flex!important;
+    flex-basis: auto;
+}
+.container {
+    padding: 0px 17.5px;
+    margin: 0px 303.5px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.collapse {
+    align-items: center!important;
+}
+.navbar-brand {
+    height: auto;
+    margin-right: 48px;
+    display: inline-block;
+    padding: 4.625px 0px;
+    line-height: inherit;
+}
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.navbar-collapse{
+    flex-grow: 1;
+    align-items: center;
+}
+.nav-item {
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    align-items: center!important;
+    /* border: 1px solid black; */
+}
+.nav-link {
+    display: block;
+    text-transform: uppercase;
+    font-size: 20px;
+    flex: 1;
+    padding: 0.5rem 1rem;
+}
+.m1-auto {
+    margin-left: auto!important;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+div.rocket {
+    display: flex;
+    height: 100%;
+    padding: 144px 0px;
+    align-items: center;
+    background-size: cover!important;
+}
+.SRM-text {
+    font-size: 64px;
+    font-weight: 300;
+    color: #fff;
+}
+.slogan {
+    font-size: 25px;
+    color: #fff;
+}
+.contact-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 20px 0px;
+    background-color: #fff;
+}
+.text-limit {
+    max-width: 33%;
+}
